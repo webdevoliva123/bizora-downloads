@@ -1,8 +1,10 @@
 # Bizora website
-React + Vite landing page.
+
+One-page Next.js site built only with Tailwind CSS and shadcn/ui components.
 
     npm install
-    npm run dev      # local preview
-    npm run build    # output in dist/
+    npm run dev       # http://localhost:3000
+    npm run build
 
-Edit installer links, version and copy at the top of `src/App.jsx`.
+Add more shadcn components any time: `npx shadcn@latest add <name>` (components.json is set up).
+Download links and the repo name live at the top of `components/downloads.tsx`.
